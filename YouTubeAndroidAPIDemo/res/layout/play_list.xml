@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="70dip"
+    android:orientation="horizontal"
+    android:background="#E5E5E5"
+    android:padding="5dip" >
+     <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="70dip"
+            android:contentDescription="button" 
+            android:src="@drawable/buttonplay"/>
+    <TextView
+        android:id="@+id/destinationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="70dip"
+        android:text="title"
+        android:textColor="#440000"
+        android:textSize="15sp" />
+ 
+    <TextView
+        android:id="@+id/busNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationName"
+        android:layout_marginTop="3dip"
+        android:text="busNumber"
+        android:paddingLeft="70dip"
+        android:textColor="#440000"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dip" />
+ 
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/busNumber"       
+       
+        android:paddingLeft="70dip"
+        android:text="time"
+        android:textColor="#440000"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/busNumber"
+        android:layout_alignBottom="@+id/busNumber"
+        android:layout_alignParentRight="true"
+        android:text="(min)"
+        android:layout_marginRight="2dip"
+        android:textColor="#440000"
+        android:textSize="15sp" />
+
+      <TextView
+          android:id="@+id/busRegNo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/busNumber"
+          android:paddingLeft="70dip"
+          android:layout_below="@+id/min"
+          android:text="dsfsdfsdfsdfsdfdsf"
+          android:textColor="#440000"
+          android:textSize="10sp" />
+ 
+</RelativeLayout>
+
+    
+      
+
+   
