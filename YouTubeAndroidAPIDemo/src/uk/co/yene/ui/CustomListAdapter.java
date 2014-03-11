@@ -76,6 +76,7 @@ public class CustomListAdapter extends BaseAdapter {
         holder.countDown.setText(listData.get(position).getVideoid());
         holder.busReg.setText(listData.get(position).getVcount());
         holder.thumnail.setImageBitmap(DownloadFullFromUrl(listData.get(position).getImage()));
+        Log.e("custom" , ""+listData.get(position).getImage());
         return convertView;
     }
     
